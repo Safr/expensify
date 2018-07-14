@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginPage Component should render correctly 1`] = `
+<styled.div>
+  <styled.div>
+    <styled.h1
+      className="box-layout__title"
+    >
+      Expensify App
+    </styled.h1>
+    <styled.p>
+      It's time to get your expenses under control.
+    </styled.p>
+    <styled.button
+      red={true}
+    >
+      Login with Google
+    </styled.button>
+  </styled.div>
+</styled.div>
+`;

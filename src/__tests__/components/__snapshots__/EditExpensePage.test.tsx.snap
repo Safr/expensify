@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditExpensePage component should render EditExpensePage correctly 1`] = `
+<React.Fragment>
+  <styled.div>
+    <h1>
+      Edit Expense
+    </h1>
+  </styled.div>
+  <ExpenseForm
+    expense={
+      Object {
+        "amount": 77,
+        "createdAt": 0,
+        "description": "Gum",
+        "id": "1",
+        "note": "",
+      }
+    }
+    onSubmit={[Function]}
+  />
+  <styled.div>
+    <styled.button
+      onClick={[Function]}
+      red={true}
+    >
+      Remove Expense
+    </styled.button>
+  </styled.div>
+</React.Fragment>
+`;

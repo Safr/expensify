@@ -1,0 +1,52 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint-config-airbnb",
+    "tslint-eslint-rules",
+    "tslint-react"
+  ],
+  "rules": {
+    "align": [true, "parameters", "arguments", "statements"],
+    "indent": {
+      "options": ["spaces", 2]
+    },
+     "jsx-no-multiline-js": false,
+     "jsx-boolean-value": false,
+     "import-name": false,
+    "max-line-length": {
+      "options": [120]
+  },
+    "quotemark": [true, "single", "jsx-double"],
+    "semicolon": [true, "always"],
+    "strict": true,
+    "interface-name": [true, "never-prefix"],
+    "member-ordering": [
+      true,
+      "static-before-instance",
+      "variables-before-functions"
+    ],
+    "object-literal-sort-keys": false,
+    "object-shorthand-properties-first": false,
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-module",
+      "check-operator",
+      "check-separator",
+      "check-type",
+      "check-typecast"
+    ],
+    "no-consecutive-blank-lines": true,
+    "no-duplicate-variable": true,
+    "no-empty": true,
+    "no-eval": true,
+    "no-trailing-whitespace": true,
+    "ter-arrow-parens": false,
+    "variable-name": false
+  },
+  "jsRules": {
+    "object-literal-shorthand": true,
+    "trailing-comma": [false]
+  }
+}

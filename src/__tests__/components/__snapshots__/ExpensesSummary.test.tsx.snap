@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExpensesSummary Component should render ExpensesSummary correctly with 1 expense 1`] = `
+<styled.div>
+  <styled.div>
+    <h2>
+      Viewing 
+      <styled.span>
+        1
+      </styled.span>
+       
+      expense
+       
+       totalling 
+      <styled.span>
+        $2.22
+      </styled.span>
+    </h2>
+    <Styled(Link)
+      to="/create"
+    >
+      Add Expense
+    </Styled(Link)>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`ExpensesSummary Component should render ExpensesSummary correctly with multiple expenses 1`] = `
+<styled.div>
+  <styled.div>
+    <h2>
+      Viewing 
+      <styled.span>
+        33
+      </styled.span>
+       
+      expenses
+       
+       totalling 
+      <styled.span>
+        $222,222.22
+      </styled.span>
+    </h2>
+    <Styled(Link)
+      to="/create"
+    >
+      Add Expense
+    </Styled(Link)>
+  </styled.div>
+</styled.div>
+`;

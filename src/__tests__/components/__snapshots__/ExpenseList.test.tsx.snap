@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExpenseList Component should render ExpenseList correctly with expenses 1`] = `
+<styled.div>
+  <styled.header>
+    <div>
+      Expense
+    </div>
+    <div>
+      Amount
+    </div>
+  </styled.header>
+  <styled.ul>
+    <ExpenseListItem
+      amount={77}
+      createdAt={0}
+      description="Gum"
+      id="1"
+      key="1"
+      note=""
+    />
+    <ExpenseListItem
+      amount={777}
+      createdAt={-345600000}
+      description="Rent"
+      id="2"
+      key="2"
+      note=""
+    />
+    <ExpenseListItem
+      amount={7777}
+      createdAt={345600000}
+      description="House"
+      id="3"
+      key="3"
+      note=""
+    />
+  </styled.ul>
+</styled.div>
+`;
+
+exports[`ExpenseList Component should render ExpenseList with empty message 1`] = `
+<styled.div>
+  <styled.header>
+    <div>
+      Expense
+    </div>
+    <div>
+      Amount
+    </div>
+  </styled.header>
+  <styled.ul>
+    <styled.p>
+      No expenses
+    </styled.p>
+  </styled.ul>
+</styled.div>
+`;
