@@ -12,11 +12,15 @@ export const LoginWrapper = styled.div`
 `;
 
 export const LoginInnerBox = styled.div`
+  padding: ${mSize};
   background: #f2f4ee;
   border-radius: 3px;
-  padding: ${mSize} ${lSize};
   text-align: center;
-  width: 35rem;
+  width: 30rem;
+  ${media.tablet`
+    width: 35rem;
+    padding: ${mSize} ${lSize};
+  `}
 `;
 
 export const Title = styled.h1`
