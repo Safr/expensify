@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { lSize, mSize } from '../../theme/variables';
+import media from '../../theme/media';
 
 export const LoginWrapper = styled.div`
   align-items: center;
