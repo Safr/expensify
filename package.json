@@ -17,7 +17,7 @@
     "lint:css:js": "stylelint './src/**/*.js' --color --formatter verbose --fix",
     "lint:css:sass": "stylelint './src/**/*.scss' --syntax scss --color --formatter verbose --fix",
     "lint": "yarn run lint:js && yarn run lint:css",
-    "clean": "rimraf dist/**/*",
+    "clean": "rimraf public/**/*",
     "start": "cross-env NODE_ENV=development webpack-dev-server",
     "build": "cross-env NODE_ENV=production webpack --progress --colors"
   },
