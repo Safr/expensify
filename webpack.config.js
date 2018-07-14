@@ -143,7 +143,6 @@ const configDev = {
 const configProd = {
   app: ['babel-polyfill', './src/index.tsx'],
   vendor: [
-    'firebase',
     'react',
     'redux',
     'react-dom',
