@@ -88,11 +88,11 @@ const productionPlugins = [
     // filename: 'vendor.js',
   }),
   new webpack.optimize.ModuleConcatenationPlugin(),
-    new PurifyCSSPlugin({
-      // Give paths to parse for rules. These should be absolute!
-      paths: glob.sync(path.join(__dirname, 'src/*.html')),
-      minimize: true,
-    }),
+  new PurifyCSSPlugin({
+    // Give paths to parse for rules. These should be absolute!
+    paths: glob.sync(path.join(__dirname, 'src/*.html')),
+    minimize: true,
+  }),
   new ExtractTextPlugin({
     filename: 'styles/[name].[contenthash].css',
     // filename: 'styles/[name].css',
